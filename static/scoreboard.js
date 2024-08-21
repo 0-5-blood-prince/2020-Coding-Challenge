@@ -26,7 +26,7 @@ function addTeamView(id, name, score) {
 function sort_rows() {
   var rows = $("#teams").children();
 }
-function increase_score(index, id) {
+function increase_score(id) {
   var team_id = { "id": id }
   $.ajax({
     type: "POST",
